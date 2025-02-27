@@ -6,7 +6,7 @@ use SQL_Practice_6;
 -- 1. Create a Table
 create table books(book_id int primary key auto_increment,title varchar(40),year int,author varchar(20),genre varchar(30));
 drop table books;
-select *from books
+select *from books;
 
 -- 2. Insert Data Using a Stored Procedure 
 
