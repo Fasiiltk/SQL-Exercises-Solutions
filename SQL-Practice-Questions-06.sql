@@ -1,4 +1,4 @@
-                                                             -- SQL Practice 6
+                                                              -- SQL Practice 6
 
 
 create database SQL_Practice_6;
