@@ -8,7 +8,7 @@ create table books(book_id int primary key auto_increment,title varchar(40),year
 drop table books;
 select *from books;
 
--- 2. Insert Data Using a Stored Procedure
+-- 2. Insert Data Using a Stored Procedure 
 
 delimiter //
 create procedure Insert_in_Books(pr_title varchar(30),pr_author varchar(30),pr_year int,pr_genre varchar(30))
