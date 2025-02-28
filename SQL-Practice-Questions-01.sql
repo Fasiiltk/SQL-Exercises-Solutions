@@ -6,7 +6,7 @@
 
 
 -- Books Table 
-
+ 
 create Database library;
 use library;
 create table Books(BookID int primary key,Title varchar(100) not null,Author varchar(100) not null, Genre varchar(100),PublishedYear int not null, CopiesAvailable int check(CopiesAvailable > 0)); 
