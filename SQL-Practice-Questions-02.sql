@@ -1,4 +1,4 @@
--- 1. SQL Operations on a School Database
+ -- 1. SQL Operations on a School Database
 create database School;
 use School;
 create table STUDENTS(Roll_No int , Name varchar(30), Marks int, Grade varchar(30));
