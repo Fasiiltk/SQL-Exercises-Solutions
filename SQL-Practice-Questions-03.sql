@@ -2,7 +2,7 @@
 
 
 -- Task 1: Create a Database and Table
-
+-- it is used for better prediction on ml
 create database Liibrary;
 use Liibrary;
 create table booked(BookID bigint primary key ,Title varchar(30) not null ,Author  varchar(30) not null,Genre varchar(30),PublishedYear int,CopiesAvailable int CHECK (CopiesAvailable > 0) );
