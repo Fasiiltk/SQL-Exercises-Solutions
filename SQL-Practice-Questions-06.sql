@@ -2,7 +2,7 @@
 
 
 create database SQL_Practice_6;
-use SQL_Practice_6; 
+use SQL_Practice_6;  
 -- 1. Create a Table
 create table books(book_id int primary key auto_increment,title varchar(40),year int,author varchar(20),genre varchar(30));
 drop table books;
