@@ -1,7 +1,7 @@
 -- Create Orders table
 create database Normalization;
 CREATE TABLE Orders (
-    Order_ID INT PRIMARY KEY,
+    Order_ID INT PRIMARY KEY, 
     Customer_Name VARCHAR(255) NOT NULL
 );
 
