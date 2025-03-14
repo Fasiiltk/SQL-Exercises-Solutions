@@ -6,7 +6,7 @@ select *from STUDENTS;
 alter table STUDENTS add column Contacts varchar(15);
 alter table STUDENTS drop  column Grade;
 rename table STUDENTs to CLASSTEN;
-truncate CLASSTEN;
+truncate CLASSTEN; 
 
 -- 2. SQL Operations on a Sales Database
 
