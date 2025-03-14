@@ -11,7 +11,7 @@ truncate CLASSTEN;
 -- 2. SQL Operations on a Sales Database
 
 create database Sales;
-use Sales;
+use Sales; 
 create table Orders(Order_ID int primary key,Customer_Name varchar(15) not null,Product_Category varchar(15),Ordered_item varchar(20),Contact_No varchar(15) unique);
 alter table Orders add column order_quantity varchar(15);
 rename table Orders to Sales_Orders;
